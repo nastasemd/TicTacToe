@@ -47,7 +47,7 @@ def showText():
     topText = font.render("Tic Tac Toe", True, (255, 255, 255))
     github = font.render(githubText, True, (255, 255, 255))
     screen.blit(topText, (290, 40))
-    screen.blit(github, (435, 565))
+    screen.blit(github, (435, 555))
     if gameOverText == "Player won!":
         gText = font.render(gameOverText, True, (0, 255, 0))
         screen.blit(gText, (30, 90))
